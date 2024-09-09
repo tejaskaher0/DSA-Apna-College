@@ -1,7 +1,7 @@
 # DSA-Series-by-Shradha-didi
 Learning &amp; Practicing every Lecture taught by Shradha Khapra | Apna College
 
-[Complete C++ DSA Course | Data Structures & Algorithms | Shradha didi | Apna College](https://youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt&si=4cM2I_Uz-xRSFKgY)
+[Complete C++ DSA Course | Data Structures & Algorithms | Shradha Ma'am | Apna College](https://youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt&si=N2AK3kFvQlV_YafW)
 
 ## Lecture 01: Flowchart & Pseudocode
 
@@ -13,11 +13,11 @@ This project contains basic C++ programs demonstrating fundamental programming c
 
 The project includes the following programs:
 
-- **`sumof_1toN.cpp`**: Calculates the sum of numbers from 1 to N.
-- **`area_of_square.cpp`**: Calculates the area of a square.
+- **`sum_from_1_to_n.cpp`**: Calculates the sum of numbers from 1 to N.
+- **`area_square.cpp`**: Calculates the area of a square.
 - **`prime_or_not.cpp`**: Determines if a number is prime or not.
-- **`odd_or_even.cpp`**: Determines if a number is odd or even.
-- **`min_of_2numbers.cpp`**: Finds the minimum of two numbers.
+- **`odd_even.cpp`**: Determines if a number is odd or even.
+- **`min_of_2_nums.cpp`**: Finds the minimum of two numbers.
 
 ### Installation
 
@@ -25,37 +25,41 @@ This project doesn't require any specific environment managers or package manage
 
 ### Usage
 
-1. **Compilation:** Use a C++ compiler to compile each individual program. For example, to compile `sumof_1toN.cpp`, use the following command:
+1. **Compilation:** Use a C++ compiler to compile each individual program. For example, to compile `sum_from_1_to_n.cpp`, use the following command:
 
 ```bash
-g++ sumof_1toN.cpp -o sumof_1toN
+g++ sum_from_1_to_n.cpp -o sum_from_1_to_n
 ```
 
 2. **Execution:** Run the compiled executable:
 
 ```bash
-./sumof_1toN
+./sum_from_1_to_n
 ```
 
-This will run the `sumof_1toN` program. Repeat the process for other programs.
+This will run the `sum_from_1_to_n` program. Repeat the process for other programs.
 
 **Example:**
 
 ```cpp
-// sumof_1toN.cpp
+// sum_from_1_to_n.cpp
 
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    int n, sum = 0;
-    cout << "Enter a positive integer: ";
-    cin >> n;
-    for (int i = 1; i <= n; ++i) {
-        sum += i;
+    int num, sum = 0, count = 1;
+
+    cout << "Enter the number : ";
+    cin >> num;
+
+    while(count <= num) {
+        sum += count;
+        count++;
     }
-    cout << "Sum of 1 to " << n << " is: " << sum << endl;
+
+    cout << "Sum of 1 to " << num << " is : " << sum << endl;
+
     return 0;
 }
 ```
