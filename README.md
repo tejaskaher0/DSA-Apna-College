@@ -82,8 +82,8 @@ int main() {
 ### Example Output:
 
 ```text
-Enter the number: 5
-Sum of 1 to 5 is: 15
+Enter the number : 5
+Sum of 1 to 5 is : 15
 ```
 
 ### Contributing
