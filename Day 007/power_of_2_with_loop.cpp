@@ -29,18 +29,31 @@
 #include <iostream>
 using namespace std;
 
-bool isPowerOf2(int x) {
-    // Check if x is greater than 0 and if x & (x - 1) equals 0
-    return (x > 0) && ((x & (x - 1)) == 0);
+bool isPowerOf2(int n) {
+    // A number less than or equal to 0 cannot be a power of 2
+    if (n <= 0) {
+        return false;
+    }
+
+    // Keep dividing the number by 2 until it becomes 1
+    while (n > 1) {
+        if (n % 2 != 0) { // If n is not divisible by 2, it is not a power of 2
+            return false;
+        }
+        n /= 2; // Divide n by 2
+    }
+
+    // If we reach here, n must be 1, meaning it is a power of 2
+    return true;
 }
 
 int main() {
-    int x = 64;
+    int n = 64; // Example input
 
-    if (isPowerOf2(x)) {
-        cout << x << " is a power of 2" << endl;
+    if (isPowerOf2(n)) {
+        cout << n << " is a power of 2" << endl;
     } else {
-        cout << x << " is not a power of 2" << endl;
+        cout << n << " is not a power of 2" << endl;
     }
 
     return 0;
