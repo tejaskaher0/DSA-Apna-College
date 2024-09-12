@@ -36,6 +36,7 @@ To run the programs, you need:
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   ```
 
 2. **Compile the Programs:**
 
