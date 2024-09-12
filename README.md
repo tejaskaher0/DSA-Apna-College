@@ -34,8 +34,8 @@ To run the programs, you need:
    Clone the repository or download the files directly from the repository.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/tejaskaher0/DSA-Apna-College.git
+   cd '.\Day 001\'
    ```
 
 2. **Compile the Programs:**
