@@ -43,7 +43,7 @@ To run the programs, you need:
     Use a C++ compiler to compile each program. For example, to compile `sum_from_1_to_n.cpp`, run:
 
     ```bash
-    g++ sum_from_1_to_n.cpp -o sum_from_1_to_n
+    g++ sum_from_1_to_n.cpp -o sum_from_1_to_n; .\sum_from_1_to_n
     ```
 
 Follow the same process to compile and run other programs.
