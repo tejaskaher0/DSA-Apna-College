@@ -89,8 +89,8 @@ Sum of 1 to 5 is : 15
 
 ### Contributing
 
-Feel free to submit issues, fork the repository, and send pull requests to contribute to this project.
+Contributions are welcome! Feel free to submit issues, fork the repository, or create pull requests to enhance the project.
 
 ### License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for more information.
